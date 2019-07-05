@@ -5,13 +5,13 @@ Easily integrates with node task runners (e.g.: npm and gulp) due to its promise
 ## Prerequisites
 You must have the AWS CLI installed and have its executable added to your path
 ## Usage
-
+You can execute all commands available from your AWS CLI version
 ```js
 // import
-import { cli } from '@aws-toolkit/cli'
+import { cli } from '@aws-toolkit/aws-cli'
 
 // require
-const { cli } = require('@aws-toolkit/cli');
+const { cli } = require('@aws-toolkit/aws-cli');
 
 const args = [
     'deploy',
