@@ -7,10 +7,9 @@ You must have the AWS CLI installed and have its executable added to your path
 ## Usage
 You can execute all commands available from your AWS CLI version
 ```js
-// import
 import { cli } from '@aws-toolkit/aws-cli'
-
-// require
+```
+```js
 const { cli } = require('@aws-toolkit/aws-cli');
 
 const args = [
@@ -19,5 +18,7 @@ const args = [
     '--stack-name', '<value>'
 ];
 
-cli('cloudformation', args);
+async function example() {
+    await cli('cloudformation', args);
+}
 ```
