@@ -1,6 +1,6 @@
 {
   "name": "@aws-toolkit/aws-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AWS Node.js Toolkit - AWS CLI",
   "main": "src/index.js",
   "repository": {
